@@ -79,7 +79,7 @@ roomnumber int primary key,
 roomtype varchar(60),
 blockfloor int,
 blockcode int,
-unavaiable bit)
+unavailable bit)
 
 create table on_call(
 nurse int,
